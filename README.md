@@ -14,7 +14,7 @@
 | alimentazione         | VARCHAR(20)    | NULL                                    | Tipo di carburante (benzina, diesel, elettrica, ibrido, ecc.)        |
 | cilindrata            | INT            | NULL                                    |
 | potenza_cv            | INT            | NULL                                    |
-| num_porte             | INT            | Numero di porte dell'auto               |
+| num_porte             | INT            | NULL                                    |
 | prezzo_vendita        | DECIMAL(10, 2) | NULL                                    |
 | data_acquisizione     | DATE           | NULL                                    | Data di acquisto dell'auto da parte del concessionario               |
 | condizioni            | VARCHAR(255)   | NULL                                    | Condizioni generali dell'auto (es. "buone", "ottime", "da riparare") |
